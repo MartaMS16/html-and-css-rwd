@@ -1,6 +1,6 @@
 /* GLOBAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -8,6 +8,12 @@ body {
 
 .container {
     width: 100%;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* END OF GLOBAL */
@@ -33,7 +39,7 @@ body {
     order: -1;
 }
 
-.header__button {
+.header__btn {
     display: none;
 }
 
@@ -173,21 +179,18 @@ body {
     font-size: 0.8rem;
 }
 
-.hero__button {
+.hero__btn {
     margin-top: 10px;
     margin-left: 15px;
     height: 40px;
     width: 155px;
     color: white;
     background-color: #37EBED;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
 
-.hero__button:hover {
+.hero__btn:hover {
     background-color: #4BA8FD;
 }
 
@@ -205,6 +208,7 @@ body {
 /* FIRST SECTION */
 
 .first-section {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,5 +256,56 @@ body {
     line-height: 35px;
 }
 
-
 /* END OF FIRST SECTION */
+/* SECOND SECTION */
+
+.second-section__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+}
+
+.second-section__text {
+    padding: 0 5px 40px;
+}
+
+.second-section__article {
+    padding-right: 5px;
+}
+
+.second-section__header {
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+    line-height: 35px;
+}
+
+.second-section__paragraph {
+    font-weight: 300;
+    padding-bottom: 40px;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.second-section__btn {
+    background-color: #0181F5;
+    color: white;
+    height: 55px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.draw {
+    max-width: 100%;
+}
+
+/* END OF SECOND SECTION */
