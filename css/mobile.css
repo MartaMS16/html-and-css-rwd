@@ -472,7 +472,6 @@ body {
     margin-bottom: 40px;
 }
 
-
 /* END OF PRICING */
 /* PRODUCTIVITY */
 
@@ -501,7 +500,7 @@ body {
     margin-bottom: 15px;
 }
 
-.app__download {
+.app__download__list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -509,3 +508,73 @@ body {
 }
 
 /* END OF PRODUCTIVITY */
+/* FOOTER */
+
+.footer__container {
+    color: #C7C7C7;
+}
+
+.footer__top {
+    background-color: #1F1F1F;
+    padding: 60px 15px;
+}
+
+.footer__widget {
+    margin: 20px auto;
+}
+
+.footer__paragraph {
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+.social__links {
+    display: flex;
+}
+
+.fab {
+    width: 40px;
+    height: 40px;
+    color: #C7C7C7;
+    background-color: #565656;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 1.1rem;
+}
+
+.fa-facebook-f {
+    margin-left: 0;
+}
+
+.footer__widget__header {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.widget__list__link a {
+    color: #C7C7C7;
+    font-size: 0.8rem;
+    line-height: 40px;
+}
+
+.footer__copyright {
+    background-color: black;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 30px 25px;
+    line-height: 25px;
+}
+
+.footer__link {
+    color: #5DB2FF;
+}
+
+/* END OF FOOTER */
