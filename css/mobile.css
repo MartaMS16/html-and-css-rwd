@@ -202,3 +202,55 @@ body {
 }
 
 /* END OF HERO */
+/* FIRST SECTION */
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section__header {
+    padding: 40px 0;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.first-section__services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__icons {
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+}
+
+.icon-1 {
+    background: linear-gradient(to right, #0281F5 0%, #56AEFE 100%);
+}
+
+.icon-2 {
+    background: linear-gradient(to right, #FDAD5D 0%, #FD8F5E 100%);
+}
+
+.icon-3 {
+    background-color: #37EF8D;
+}
+
+.services {
+    padding: 30px 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    max-width: 60vw;
+    line-height: 35px;
+}
+
+
+/* END OF FIRST SECTION */
