@@ -18,18 +18,19 @@ body {
     height: 100vh;
     background-image: url("../images/banner/banner.png");
     background-repeat: no-repeat;
-    background-position: center 5%;
-
+    background-position: center;
+    background-size: cover;
 }
 
 .header {
     width: 100%;
-    height: 55px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #2C2C2C;
     position: fixed;
+    order: -1;
 }
 
 .header__button {
@@ -110,39 +111,94 @@ body {
     padding-left: 25px;
 }
 
-/* -- DROP-DOWN MENU -- */
+/* --- DROP-DOWN MENU --- */
 
-.bars:checked + .nav {
+.bars:checked+.nav {
     display: flex;
 }
 
-.drop-down__link-1:checked ~ .drop-down__links-1 {
+.drop-down__link-1:checked~.drop-down__links-1 {
     display: block;
 }
 
-.drop-down__link-2:checked ~ .drop-down__links-2 {
+.drop-down__link-2:checked~.drop-down__links-2 {
     display: block;
 }
 
-.drop-down__link-1:checked ~ .drop-down__link > .plus-1 {
+.drop-down__link-1:checked~.drop-down__link>.plus-1 {
     display: none;
 }
 
-.drop-down__link-1:checked ~ .drop-down__link > .minus-1 {
+.drop-down__link-1:checked~.drop-down__link>.minus-1 {
     display: block;
 }
 
-.drop-down__link-2:checked ~ .drop-down__link > .plus-2 {
+.drop-down__link-2:checked~.drop-down__link>.plus-2 {
     display: none;
 }
 
-.drop-down__link-2:checked ~ .drop-down__link > .minus-2 {
+.drop-down__link-2:checked~.drop-down__link>.minus-2 {
     display: block;
 }
 
-/* -- END OF DROP-DOWN MENU -- */
+/* --- END OF DROP-DOWN MENU --- */
 /* END OF NAV */
 
-button {
-    display: none;
+/* HERO */
+
+.hero {
+    padding-top: 55px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.hero__article {
+    padding-top: 30px;
+    padding-left: 15px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.hero__header {
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.hero__paragraph {
+    font-size: 0.8rem;
+}
+
+.hero__button {
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 40px;
+    width: 155px;
+    color: white;
+    background-color: #37EBED;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.hero__button:hover {
+    background-color: #4BA8FD;
+}
+
+.hero__picture {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.phone__picture {
+    max-width: 100%;
+}
+
+/* END OF HERO */
