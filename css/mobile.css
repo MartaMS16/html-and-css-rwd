@@ -67,7 +67,6 @@ body {
     width: 100%;
     justify-content: center;
     display: none;
-    transition: 4s;
 }
 
 .nav__list {
@@ -76,8 +75,6 @@ body {
 }
 
 .list__item {
-    display: flex;
-    align-items: center;
     padding-left: 10px;
 }
 
@@ -88,7 +85,7 @@ body {
     align-items: center;
 }
 
-.drop-down {
+.drop-down__list {
     display: block;
 }
 
@@ -97,22 +94,50 @@ body {
     padding-right: 15px;
 }
 
-.drop-down__list__item {
+.drop-down__link-1, .drop-down__link-2 {
+    display: none;
+}
+
+.drop-down__links-1, .drop-down__links-2 {
+    display: none;
+}
+
+.minus-1, .minus-2 {
+    display: none;
+}
+
+.lvl-2 {
     padding-left: 25px;
-}
-
-.drop-down__list {
-    display: none;
-}
-
-.minus {
-    display: none;
 }
 
 /* -- DROP-DOWN MENU -- */
 
 .bars:checked + .nav {
     display: flex;
+}
+
+.drop-down__link-1:checked ~ .drop-down__links-1 {
+    display: block;
+}
+
+.drop-down__link-2:checked ~ .drop-down__links-2 {
+    display: block;
+}
+
+.drop-down__link-1:checked ~ .drop-down__link > .plus-1 {
+    display: none;
+}
+
+.drop-down__link-1:checked ~ .drop-down__link > .minus-1 {
+    display: block;
+}
+
+.drop-down__link-2:checked ~ .drop-down__link > .plus-2 {
+    display: none;
+}
+
+.drop-down__link-2:checked ~ .drop-down__link > .minus-2 {
+    display: block;
 }
 
 /* -- END OF DROP-DOWN MENU -- */
