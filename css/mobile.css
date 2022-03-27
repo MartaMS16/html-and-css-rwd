@@ -497,6 +497,11 @@ body {
     margin-bottom: 40px;
 }
 
+.pricing__btn:hover {
+    background-color: #5DB2FF;
+    color: white;
+}
+
 /* END OF PRICING */
 /* PRODUCTIVITY */
 

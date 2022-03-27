@@ -193,3 +193,15 @@
 }
 
 /* END OF TESTIMONIALS */
+/* PRICING */
+
+.pricing__main-header {
+    font-size: 2.9rem;
+}
+
+.pricing__paragraph {
+    padding: 25px 245px;
+    padding-bottom: 50px;
+}
+
+/* END OF PRICING */
