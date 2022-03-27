@@ -75,6 +75,8 @@
 .first-section {
     margin-top: 0;
     padding-top: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: grid;
     grid-template-areas:
         "area-1 area-1 area-1"
@@ -162,6 +164,7 @@
 
 .pricing__container {
     margin: 150px auto;
+    width: 95%;
 }
 
 .pricing__text {
