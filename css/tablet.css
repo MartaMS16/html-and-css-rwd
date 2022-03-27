@@ -1,0 +1,26 @@
+/* GLOBAL */
+
+.section {
+    max-width: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.header__area {
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* END OF GLOBAL */
+/* NAV */
+
+.nav {
+    max-width: 725px;
+}
+
+/* END OF NAV */

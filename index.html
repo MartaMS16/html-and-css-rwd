@@ -41,83 +41,85 @@
 <body>
     <main class="container main__container">
         <header class="header">
-            <div class="logo">
-                <img
-                    src="./images/logo.png"
-                    alt="Logo"
+            <div class="header__area section">
+                <div class="logo">
+                    <img
+                        src="./images/logo.png"
+                        alt="Logo"
+                    >
+                </div>
+                <label
+                    class="hamburger"
+                    for="bars"
+                ><i class="fa fa-bars"></i></label>
+                <input
+                    class="bars"
+                    type="checkbox"
+                    id="bars"
                 >
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="list__item"><a
+                                class="nav__link"
+                                href="#"
+                            >Home</a></li>
+                        <li class="list__item"><a
+                                class="nav__link"
+                                href="#features"
+                            >Features</a></li>
+                        <li class="list__item"><a
+                                class="nav__link"
+                                href="#pricing"
+                            >Pricing</a></li>
+                        <li class="list__item drop-down__list">
+                            <input
+                                class="drop-down__link-1"
+                                type="checkbox"
+                                id="drop-down__link-1"
+                            ><label
+                                class="nav__link drop-down__link"
+                                for="drop-down__link-1"
+                            >Blog<span class="minus-1">-</span><span class="plus-1">+</span></label>
+                            <ul class="drop-down__links-1">
+                                <li class="drop-down__links__item"><a
+                                        class="nav__link lvl-2"
+                                        href="#"
+                                    >Blog</a></li>
+                                <li class="drop-down__links__item"><a
+                                        class="nav__link lvl-2"
+                                        href="#"
+                                    >Single-Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="list__item drop-down__list">
+                            <input
+                                class="drop-down__link-2"
+                                type="checkbox"
+                                id="drop-down__link-2"
+                            >
+                            <label
+                                class="nav__link drop-down__link"
+                                for="drop-down__link-2"
+                            >Pages<span class="minus-2">-</span>
+                                <spans class="plus-2">+</spans>
+                            </label>
+                            <ul class="drop-down__links-2">
+                                <li class="drop-down__links__item"><a
+                                        class="nav__link lvl-2"
+                                        href="#"
+                                    >Elements</a></li>
+                            </ul>
+                        </li>
+                        <li class="list__item"><a
+                                class="nav__link"
+                                href="#contact"
+                            >Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="btn header__btn"></button>
             </div>
-            <label
-                class="hamburger"
-                for="bars"
-            ><i class="fa fa-bars"></i></label>
-            <input
-                class="bars"
-                type="checkbox"
-                id="bars"
-            >
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="list__item"><a
-                            class="nav__link"
-                            href="#"
-                        >Home</a></li>
-                    <li class="list__item"><a
-                            class="nav__link"
-                            href="#features"
-                        >Features</a></li>
-                    <li class="list__item"><a
-                            class="nav__link"
-                            href="#pricing"
-                        >Pricing</a></li>
-                    <li class="list__item drop-down__list">
-                        <input
-                            class="drop-down__link-1"
-                            type="checkbox"
-                            id="drop-down__link-1"
-                        ><label
-                            class="nav__link drop-down__link"
-                            for="drop-down__link-1"
-                        >Blog<span class="minus-1">-</span><span class="plus-1">+</span></label>
-                        <ul class="drop-down__links-1">
-                            <li class="drop-down__links__item"><a
-                                    class="nav__link lvl-2"
-                                    href="#"
-                                >Blog</a></li>
-                            <li class="drop-down__links__item"><a
-                                    class="nav__link lvl-2"
-                                    href="#"
-                                >Single-Blog</a></li>
-                        </ul>
-                    </li>
-                    <li class="list__item drop-down__list">
-                        <input
-                            class="drop-down__link-2"
-                            type="checkbox"
-                            id="drop-down__link-2"
-                        >
-                        <label
-                            class="nav__link drop-down__link"
-                            for="drop-down__link-2"
-                        >Pages<span class="minus-2">-</span>
-                            <spans class="plus-2">+</spans>
-                        </label>
-                        <ul class="drop-down__links-2">
-                            <li class="drop-down__links__item"><a
-                                    class="nav__link lvl-2"
-                                    href="#"
-                                >Elements</a></li>
-                        </ul>
-                    </li>
-                    <li class="list__item"><a
-                            class="nav__link"
-                            href="#contact"
-                        >Contact</a></li>
-                </ul>
-            </nav>
-            <button class="btn header__btn"></button>
         </header>
-        <section class="hero">
+        <section class="hero section">
             <div class="hero__text">
                 <article class="hero__article">
                     <h1 class="hero__header">Promote Your App With AppLab</h1>
@@ -135,7 +137,7 @@
         </section>
     </main>
     <section class="container">
-        <div class="first-section">
+        <div class="first-section section">
             <h1 class="first-section__header">Save your time to using applab</h1>
             <div class="first-section__services">
                 <div class="services__icons icon-1">
@@ -170,7 +172,7 @@
         class="container features__container"
         id="features"
     >
-        <div class="features">
+        <div class="features section">
             <div class="features__text">
                 <article class="features__article">
                     <h2 class="features__header">Features that give you real feel</h2>
@@ -190,7 +192,7 @@
         </div>
     </section>
     <section class="container testimonial__container">
-        <article class="testimonials">
+        <article class="testimonials section">
             <h2 class="testimonials__header">Review from our regular users</h2>
             <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
                 incididunt labore et dolore magna aliqua quis ipsum suspendisse ultrices.</p>
@@ -210,12 +212,12 @@
         class="container pricing__container"
         id="pricing"
     >
-        <article class="pricing__text">
+        <article class="pricing__text section">
             <h2 class="pricing__main-header">Unlock full Power</h2>
             <p class="pricing__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
                 incididunt.</p>
         </article>
-        <div class="pricing__elements">
+        <div class="pricing__elements section">
             <div class="pricing__element">
                 <h3 class="pricing__element__header-1 pricing__header">
                     <p class="pricing__type">Basic</p>
@@ -259,7 +261,7 @@
         </div>
     </section>
     <section class="container productivity__container">
-        <div class="productivity">
+        <div class="productivity section">
             <h2 class="productivity__header">Get start from now <br> and increase productivity</h2>
             <ul class="app__download__list">
                 <li><a
@@ -280,7 +282,7 @@
         </div>
     </section>
     <footer class="container footer__container">
-        <div class="footer__top">
+        <div class="footer__top section">
             <div class="footer__widget">
                 <article class="footer__article">
                     <img
@@ -339,7 +341,7 @@
                 </ul>
             </div>
         </div>
-        <div class="footer__copyright">
+        <div class="footer__copyright section">
             <p class="copyright">Copyright &copy;2022 All right reserved | This template is made with <i
                     class="fa fa-heart-o"
                 ></i> by <a

@@ -38,11 +38,18 @@ body {
     width: 100%;
     height: 55px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: #2C2C2C;
     position: fixed;
     z-index: 2;
+}
+
+.header__area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .header__btn {
@@ -169,7 +176,7 @@ body {
 .hero {
     padding-top: 55px;
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -224,14 +231,15 @@ body {
 /* FIRST SECTION */
 
 .first-section {
-    padding-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .first-section__header {
-    padding: 40px 0;
+    padding-bottom: 40px;
+    margin: 0 5px;
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
@@ -560,7 +568,7 @@ body {
     font-size: 1.1rem;
 }
 
-.fa-facebook-f {
+.fab.fa-facebook-f {
     margin-left: 0;
 }
 
