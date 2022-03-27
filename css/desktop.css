@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 .section {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -11,6 +11,12 @@
 
 .main__container {
     display: block;
+    height: 900px;
+    max-height: none;
+}
+
+.header__area {
+    max-width: 1500px;
 }
 
 .header {
@@ -93,4 +99,52 @@
     display: none;
 }
 
+.drop-down__link-1:hover ~ .drop-down__links-1 {
+    display: block;
+}
+
+.drop-down__links-1:hover {
+    display: block;
+}
+
+.drop-down__link-2:hover ~ .drop-down__links-2 {
+    display: block;
+}
+
+.drop-down__links-2:hover {
+    display: block;
+}
+
+.lvl-2:hover {
+    color: black;
+}
+
 /* END OF NAV */
+/* HERO */
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero__text {
+    flex-basis: 60%;
+}
+
+.hero__header {
+    font-size: 3.75rem;
+    line-height: 4.6rem;
+}
+
+.hero__picture {
+    width: auto;
+    height: 100%;
+    padding-top: 0;
+    flex-basis: 40%;
+}
+
+.phone__picture {
+    max-width: fit-content;
+    padding-top: 30px;
+}
+
+/* END OF HERO */

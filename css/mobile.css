@@ -20,6 +20,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
 }
 
 /* END OF GLOBAL */
