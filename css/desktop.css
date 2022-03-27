@@ -225,3 +225,32 @@
 }
 
 /* END OF PRODUCTIVITY */
+/* FOOTER */
+
+.footer__top {
+    max-width: none;
+    margin: 0;
+    padding: 80px 0;
+    padding-bottom: 150px;
+}
+
+.footer__section {
+    width: 100%;
+}
+
+.footer__widget {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.footer__article {
+    display: block;
+    min-width: 420px;
+}
+
+.footer__copyright {
+    max-width: none;
+    margin: 0;
+}
+
+/* END OF FOOTER */

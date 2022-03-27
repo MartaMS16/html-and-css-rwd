@@ -555,6 +555,7 @@ body {
 .footer__paragraph {
     padding: 20px 0;
     line-height: 25px;
+    font-weight: 300;
 }
 
 .social__links {
