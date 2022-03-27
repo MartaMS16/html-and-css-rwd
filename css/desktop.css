@@ -148,3 +148,17 @@
 }
 
 /* END OF HERO */
+/* FIRST SECTION */
+
+.first-section__header {
+    font-size: 2.9rem;
+    padding: 10px 300px;
+    line-height: 3.75rem;
+    padding-bottom: 70px;
+}
+
+.services {
+    padding: 30px 55px;
+}
+
+/* END OF FIRST SECTION */
