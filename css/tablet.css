@@ -120,12 +120,12 @@
 
 .features__text {
     flex-basis: 50%;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .features__picture {
     flex-basis: 50%;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .features__header {
@@ -220,6 +220,10 @@
     max-width: 100%;
     padding: 40px 0;
     display: flex;
+    justify-content: center;
+}
+
+.footer__section {
     flex-wrap: wrap;
 }
 
@@ -227,7 +231,7 @@
     width: calc(50% - 40px);
     margin-top: 50px;
     padding-left: 20px;
-    min-height: 205px;
+    min-height: 220px;
 }
 
 .footer__paragraph {
