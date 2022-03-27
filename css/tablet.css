@@ -132,3 +132,29 @@
 }
 
 /* END OF FEATURES */
+/* TESTIMONIALS */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+}
+
+.testimonials__header {
+    font-size: 2.25rem;
+    line-height: 40px;
+    padding: 10px 150px;
+}
+
+.testimonial {
+    padding: 70px 20px;
+    padding-bottom: 30px;
+}
+
+.caption {
+    font-size: 0.9rem;
+}
+
+/* END OF TESTIMONIALS */
