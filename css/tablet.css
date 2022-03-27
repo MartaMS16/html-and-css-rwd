@@ -206,3 +206,39 @@
 }
 
 /* END OF PRODUCTIVITY */
+/* FOOTER */
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__top {
+    max-width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__widget {
+    width: calc(50% - 40px);
+    margin-top: 50px;
+    padding-left: 20px;
+    min-height: 205px;
+}
+
+.footer__paragraph {
+    padding: 35px 0;
+    padding-right: 10px;
+}
+
+.footer__widget__header {
+    padding-bottom: 35px;
+}
+
+.footer__copyright {
+    max-width: 100%;
+    justify-content: center;
+}
+
+/* END OF FOOTER */
