@@ -506,7 +506,7 @@ body {
 /* PRODUCTIVITY */
 
 .productivity__container {
-    background-color: #5DB2FF;
+    background-image: url(../images/banner/product.png);
     color: white;
     height: 340px;
     display: flex;
