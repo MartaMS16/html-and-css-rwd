@@ -99,7 +99,7 @@
     display: none;
 }
 
-.drop-down__link-1:hover ~ .drop-down__links-1 {
+.drop-down__link-1:hover~.drop-down__links-1 {
     display: block;
 }
 
@@ -107,7 +107,7 @@
     display: block;
 }
 
-.drop-down__link-2:hover ~ .drop-down__links-2 {
+.drop-down__link-2:hover~.drop-down__links-2 {
     display: block;
 }
 
@@ -162,3 +162,18 @@
 }
 
 /* END OF FIRST SECTION */
+/* FEATURES */
+
+.features__container {
+    padding: 100px 0;
+}
+
+.features__article {
+    padding-right: 90px;
+}
+
+.features__header {
+    font-size: 2.9rem;
+}
+
+/* END OF FEATURES */
