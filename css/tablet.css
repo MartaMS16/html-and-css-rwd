@@ -158,3 +158,28 @@
 }
 
 /* END OF TESTIMONIALS */
+/* PRICING */
+
+.pricing__container {
+    margin: 150px auto;
+}
+
+.pricing__text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.pricing__main-header {
+    font-size: 2.25rem;
+}
+
+.pricing__paragraph {
+    padding: 25px 35px;
+}
+
+.pricing__elements {
+    flex-direction: row;
+}
+
+/* END OF PRICING */
