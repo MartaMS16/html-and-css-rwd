@@ -135,6 +135,10 @@ body {
     display: none;
 }
 
+.arrow {
+    display: none;
+}
+
 .lvl-2 {
     padding-left: 25px;
 }
@@ -335,7 +339,7 @@ body {
 /* TESTIMONIALS */
 
 .testimonial__container {
-    background-image: url(/images/banner/testimonial.png);
+    background-image: url(../images/banner/testimonial.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

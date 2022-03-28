@@ -89,6 +89,7 @@
 .arrow {
     transform: rotate(90deg);
     padding-bottom: 20px;
+    display: block;
 }
 
 .drop-down__link-1:checked~.drop-down__link>.minus-1 {
