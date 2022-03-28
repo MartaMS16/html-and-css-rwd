@@ -511,6 +511,9 @@ body {
 
 .productivity__container {
     background-image: url(../images/banner/product.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     color: white;
     height: 340px;
     display: flex;
